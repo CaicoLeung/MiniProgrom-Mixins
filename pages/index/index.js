@@ -27,7 +27,7 @@ Page(createPage({
     console.log('page index loaded!');
 
     // 使用mixin
-    this.sayHello()
+    this.sayHello();
     
     this.increase();
 

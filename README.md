@@ -1,5 +1,5 @@
-# wx-mixin
-
+# MiniProgrom-Mixins
+注: 从原github仓库(作者已不维护): https://github.com/ghjagus/wx-mixin 修改.
 小程序扩展。包含mixin支持，事件勾子支持，从某个小程序页面直接调用其它页面方法完成跨页面通信。
 
 ## 小程序mixin使用

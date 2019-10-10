@@ -11,25 +11,19 @@ import lifecycle2 from '../../mixins/lifecycle2';
 
 Page(createPage({
   mixins: [sayHello, counter, duplicate, lifecycle, lifecycle2],
-
   sayHello() {
     console.log(`page-detail sayHello`);
   },
-
   invokeIndexPageIncrease() {
     this.$invoke('pages/index/index', 'increase');
   },
-  
   invokeIndexPageDecrease() {
     this.$invoke('pages/index/index', 'decrease');
   },
-
   onLoad() {
     console.log(`page-detail onLoad...`)
-
     this.sayHello();
   },
-
   onShow() {
     console.log(`page-detail onShow...`);
   }
